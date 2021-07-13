@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- The main row -->
+        <div class="row">
+
+            <!-- Left side of the page -->
+            <div class="rightSide column">
+                <img id="image" src="/images/login2.jpg" alt="">
+            </div>
+
+            <!-- Right side of the page -->
+            <div class="leftSide column">
+                <h1 id="title">Welcome Back Achiever</h1>
+                <form>
+                    <i class="fa fa-envelope" style="color: #e05100; font-size: 18px;"></i>
+                    <input type="email" placeholder="Email" name="email" id="email" required>
+                    <br>
+                    <i class="fa fa-lock" style="color: #e05100; font-size: 18px;"></i>
+                    <input type="password" placeholder="Password" name="pass" id="pass" required>
+                    <br>
+                    <button class="sendMsg" type="submit"><b>LOGIN  </b><i class="fa fa-arrow-right"></i></button>
+                </form>
+                <a id="joinMsg" href="#signUpPage">Or Why Not Create A Free Account?</a>
+                <hr id=divider>
+                <div class="socialBottom">
+                    <h3 id="joinMsg">Or Login Socially?</h3>
+                    <div class="socialIcons">
+                        <a href="#instagram" class="bIcon fa fa-instagram fa-2x"></a>
+                        <a href="#facebook" class="bIcon fa fa-facebook fa-2x"></a>
+                        <a href="#twitter" class="bIcon fa fa-twitter fa-2x"></a>
+                        <a href="#github" class="bIcon fa fa-github fa-2x"></a>
+                        <a href="#google" class="bIcon fa fa-google fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
