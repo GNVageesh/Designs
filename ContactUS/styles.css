@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Amita');
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: #1E1E1E;
+}
+
+#title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    /* font-family: 'Lobster'; */
+    font-family: 'Amita';
+    font-size: 30px;
+    text-shadow: 0 0 3px #ffffff
+}
+
+.sideH {
+    color: yellow;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    padding: 10px 10px;
+    column-gap: 10px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.rightSide {
+    background-color: #494646;
+    border-radius: 5px;
+}
+
+.leftSide {
+    background-color: #373535;
+    border-radius: 5px;
+}
+
+/* Styling for the form elements*/
+
+.sendMsg {
+    display: inline-block;
+    border-radius:4px;
+    background-color: #E05100;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.sendMsg span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+  .sendMsg span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.sendMsg:hover span {
+    padding-right: 25px;
+}
+  
+.sendMsg:hover span:after {
+    opacity: 1;
+    right: 0;
+}
