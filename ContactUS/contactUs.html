@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Us</title>
 </head>
 
@@ -16,26 +17,44 @@
 
         <!-- The main row -->
         <div class="row">
-            <!-- Right side of the page -->
-            <div class="leftSide column sideH">
-                <h2>Write to Us</h2>
-
-                <form>
-                    <input type="text" placeholder="Full Name" name="name" id="name" required>
-                    <br>
-                    <input type="email" placeholder="Email" name="email" id="email" required>
-                    <br>
-                    <input type="text" placeholder="Subject" name="sub" id="sub" required>
-                    <br>
-                    <button class="sendMsg" type="submit"><span>Send Message </span></button>
-                </form>
-            </div>
 
             <!-- Left side of the page -->
-            <div class="rightSide column sideH">
-                <h2>Where are we?</h2>
+            <div class="rightSide column">
+                <img id="image" src="/images/contactUs.jpeg" alt="">
+            </div>
+
+            <!-- Right side of the page -->
+            <div class="leftSide column">
+                <h2 class="sideH">WRITE TO US</h2>
+
+                <form>
+                    <i class="fa fa-user" style="color: #e05100; font-size: 18px;"></i>
+                    <input type="text" placeholder="Full Name" name="name" id="name" required>
+                    <br>
+                    <i class="fa fa-envelope" style="color: #e05100; font-size: 18px;"></i>
+                    <input type="email" placeholder="Email" name="email" id="email" required>
+                    <br>
+                    <i class="fa fa-inbox" style="color: #e05100; font-size: 18px;"></i>
+                    <input type="text" placeholder="Subject" name="sub" id="sub" required>
+                    <br>
+                    <textarea placeholder="Your message to us" name="messageInfo" id="msg" cols="30" rows="5"></textarea>
+                    <br>
+                    <button class="sendMsg" type="submit"><b>SEND MESSAGE  </b><i class="fa fa-paper-plane"></i></button>
+                </form>
+                <div class="socialBottom">
+                    <h3 id="joinMsg">Or Reach Us Socially?</h3>
+                    <div class="socialIcons">
+                        <a href="#instagram" class="bIcon fa fa-instagram fa-2x"></a>
+                        <a href="#facebook" class="bIcon fa fa-facebook fa-2x"></a>
+                        <a href="#twitter" class="bIcon fa fa-twitter fa-2x"></a>
+                        <a href="#email" class="bIcon fa fa-at fa-2x"></a>
+                        <a href="#github" class="bIcon fa fa-github fa-2x"></a>
+                        <a href="#website" class="bIcon fa fa-globe fa-2x"></a>
+                    </div>
+                </div>
             </div>
         </div>
+        
     </div>
 </body>
 
