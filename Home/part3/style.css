@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f1f1f;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+}
+
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 20px;
+}
+
+.row {
+  column-gap: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.row {
+  text-align: center;
+  display: flex;
+  padding: 10px 20px;
+  column-gap: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.bor {
+  border: 2px solid #ff3d00;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.tag1 {
+  color: #ff5c00;
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.tag2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Poppins";
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.tag3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: bold;
+}
