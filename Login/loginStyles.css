@@ -16,12 +16,13 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
   text-align: center;
   align-items: center;
+  width: 80%;
 }
 
 #title {
@@ -38,7 +39,7 @@ body {
   font-family: "Varela";
 }
 
-.row {
+/* .row {
   text-align: center;
   display: flex;
   padding: 10px 20px;
@@ -46,6 +47,12 @@ body {
 
 .column {
   flex: 50%;
+} */
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .leftSide {
@@ -113,8 +120,10 @@ input[type="email"] {
 }
 
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 

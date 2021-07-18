@@ -38,7 +38,7 @@ body {
   font-family: "Varela";
 }
 
-.row {
+/* .row {
   text-align: center;
   display: flex;
   padding: 10px 20px;
@@ -46,9 +46,14 @@ body {
 
 .column {
   flex: 50%;
+} */
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }
 
-.leftSide {
+.rightSide {
   background-color: #272a34;
   border-radius: 5px;
   text-align: center;
@@ -114,8 +119,10 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Varela|Roboto");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f1f1f;
+  overflow: hidden;
+}
+
+.bottomBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -100px;
+}
+
+.filtersBar {
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* .filters {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+} */
+
+.chBtn {
+  background-color: #e05100;
+  color: #fff;
+  border: none;
+  border-radius: 20px 0 20px 0;
+  margin: 6px;
+  padding: 10px 12px;
+  font-family: "Varela";
+  font-size: 14px;
+}
+
+.cardContainer {
+  text-align: center;
+  display: grid;
+  width: 60%;
+  /* grid-template-columns: 33.3% 33.3% 33.3%; */
+  /* grid-template-columns: 1fr 3fr 1fr; */
+  grid-template-columns: 20% 60% 20%;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* height: 150px; */
+}
+
+.card {
+  border: 3px solid #e05100;
+  border-radius: 20px;
+}
+
+.title {
+  color: #e05100;
+  border-bottom: 3px solid #e05100;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  font-family: "Varela";
+  font-size: 40px;
+}
+
+.cardAbt {
+  color: #fff;
+  padding: 10px 10px;
+  font-family: "Roboto";
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.fa {
+  font-size: 75px;
+}
+
+.fa-check-circle {
+  color: #5dbf47;
+  text-shadow: 0 0 5px #5dbf47;
+}
+
+.fa-times-circle {
+  color: #cf2525;
+  text-shadow: 0 0 5px #cf2525;
+}
+
+a {
+  margin-top: auto;
+  margin-bottom: 40px;
+}

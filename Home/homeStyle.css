@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mBtn {
+  background: #e05100;
+  /* box-shadow: 2px 0px 100px rgba(255, 61, 0, 0.47); */
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  padding: 16px 40px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#mTitle {
+  font-size: 70px;
+}
+
+#sDesc {
+  color: #bcbcbc;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#mDesc {
+  margin-top: -50px;
+  font-size: 20px;
+}
+
+#readMore {
+  color: #e05100;
+  text-shadow: 0px 0px 50px #ff0f00;
+  font-size: 40px;
+}
+
+#readMore a {
+  text-decoration: none;
+  color: #e05100;
+}
+
+#readMore a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.leftS {
+  margin-top: 100px;
+}
+
+.rightS {
+  background: linear-gradient(
+    109.36deg,
+    rgba(62, 62, 62, 0.38) 2.85%,
+    rgba(0, 0, 0, 0) 92.06%
+  );
+  border-radius: 50% 0 0 50%;
+  padding: 30px 20px;
+  margin-top: -150px;
+}
+
+#s2Title {
+  font-size: 50px;
+}
+
+#s2Desc {
+  color: #bcbcbc;
+  font-size: 20px;
+  padding: 10px 100px;
+}
+
+.leftC {
+  background-color: #181818;
+  box-shadow: 0px 0px 50px rgba(255, 46, 0, 0.51);
+  border-radius: 202px 433px 433px 0px;
+  padding: 40px 16px;
+  margin-left: -30px;
+  height: 400px;
+  margin-top: 90px;
+}
+
+.finalRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.card {
+  border: 2px solid #ff3d00;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.cTitle {
+  color: #e05100;
+  border-bottom: 2px solid #e05100;
+  font-size: 30px;
+}
+
+.cDesc {
+  color: #bcbcbc;
+  padding: 16px 12px;
+  margin: 0 0;
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.mCon {
+  padding: 16px 18px;
+  margin: 0 0;
+  margin-top: -15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .finalRow {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
