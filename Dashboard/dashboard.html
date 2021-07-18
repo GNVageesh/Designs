@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="dashboardStyle.css" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <title>Designs | Dashboard</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Username</h2>
+      <div class="profilePic"></div>
+      <div class="opt">
+        <a onclick="toggleSettingsMenu()" href="#"
+          ><i id="setting" class="fa oIcon fa-gear"></i
+        ></a>
+        <a href="#"><i id="info" class="fa oIcon fa-question-circle"></i></a>
+        <a href="#"><i id="signout" class="fa oIcon fa-sign-out"></i></a>
+      </div>
+
+      <div id="settingOpt">
+        <h3 class="sTitle">Switch Theme</h3>
+        <h3 class="sTitle">Password Change</h3>
+        <h3 class="sTitle">Phone Number Change</h3>
+        <h3 class="sTitle">Change Profile Picture</h3>
+      </div>
+    </div>
+    <div class="main">
+      <h1>My Account</h1>
+      <div class="container">
+        <div id="disCard"></div>
+        <div id="expCard"></div>
+      </div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
