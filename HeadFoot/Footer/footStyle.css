@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Varela");
+
+body {
+    background-color: #1f1f1f;
+    font-family: "Varela";
+    margin: auto auto;
+}
+
+.footRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    border-bottom: 1px solid #e05100;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.fTitle {
+    color: #bcbcbc;
+}
+
+.sIcon {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.organSide p,
+.localSide p {
+    color: #ddd;
+    margin: 5px;
+}
+
+.copyright {
+    color: #ddd;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footRow {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .organSide, .localSide {
+        margin-top: 20px
+    }
+}
