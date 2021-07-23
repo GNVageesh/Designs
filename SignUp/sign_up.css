@@ -36,20 +36,20 @@ border-radius: 30px;
     background: #252525;
     border: 2px solid #FF3D00;
     box-sizing: border-box;
-    border-radius: 10px;s
+    border-radius: 10px;
 }
 
 .phno {
     position: absolute;
-width: 25.41%;
-height: 5.27%;
-left: 55.93%;
-top: 33.7%;
+    width: 25.41%;
+    height: 5.27%;
+    left: 55.93%;
+    top: 33.7%;
 
-background: #252525;
-border: 2px solid #FF3D00;
-box-sizing: border-box;
-border-radius: 10px;
+    background: #252525;
+    border: 2px solid #FF3D00;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .email {
@@ -181,4 +181,3 @@ height: 72.59%;
 right: 50%;
 top: 13.7%;
 }
-

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,26 @@
 
     <title>Login</title>
 </head>
+
 <body>
+    <div class="topnav" id="myTopnav">
+        <div class="logo">
+            <a id="logoText" href="#home">Hello<span>Career</span></a>
+        </div>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Resources
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Blog</a>
+                <a href="#">Upcomming Events</a>
+            </div>
+        </div>
+        <a href="#login">Login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
     <div class="container">
 
         <!-- The main row -->
@@ -30,7 +50,7 @@
                     <i class="fa fa-lock" style="color: #e05100; font-size: 18px;"></i>
                     <input type="password" placeholder="Password" name="pass" id="pass" required>
                     <br>
-                    <button class="sendMsg" type="submit"><b>LOGIN  </b><i class="fa fa-arrow-right"></i></button>
+                    <button class="sendMsg" type="submit"><b>LOGIN </b><i class="fa fa-arrow-right"></i></button>
                 </form>
                 <a id="joinMsg" href="#signUpPage">Or Why Not Create A Free Account?</a>
                 <hr id=divider>
@@ -45,7 +65,9 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
+    <script src="navSrc.js"></script>
 </body>
+
 </html>
