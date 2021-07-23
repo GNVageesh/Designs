@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Varela");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #1e1e1e;
+
+}
+
+.abus {
+    text-align: center;
+    font-family: Varela;
+    font-size: 200%;
+    color: #E05100;
+    
+}
+
+.whoarewe {
+    float: left;
+    margin-left: 5%;
+    width: 35%;
+}
+.whoarewe h2 {
+    color: #E05100;
+    text-align: center;
+    font-size: 200%;
+    font-family: Varela;
+}
+
+.whoarewetext {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15%;
+    font-family: 'Open Sans', sans-serif;}
+
+.whoareweimg {
+    float: right;
+    size: 50%;
+}
+
+.howhelp {
+    text-align: center;
+    float: right;
+   /* margin-right: 5%; */
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 30%;
+}
+
+.howhelp h2 {
+    color: #E05100;
+    text-align: center;
+    font-size: 200%;
+    font-family: Varela;
+}
+
+.howhelptext {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.studentsimg img {
+    width: 60% ;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.better {
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+}
+
+.better h2 {
+    color: #E05100;
+    text-align: center;
+    font-size: 200%;
+    font-family: Varela;
+}
+
+.bettertext{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;}
+
+.productivity img {
+    float: right;
+    margin-top: 5%;
+}
